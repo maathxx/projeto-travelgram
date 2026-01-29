@@ -1,5 +1,6 @@
 header {
     padding-block: 32px;
+    font: var(--text-md);
 }
 
 header .container {
@@ -24,16 +25,12 @@ header .container {
     margin-bottom: 8px;
 }
 
-#profile p {
-    font: var(--text-md);
-}
-
 #info {
     list-style: none;
 
     display: flex;
-    flex-direction: column
-    gap 16px;
+    flex-direction: column;
+    gap: 16px;
 
     width: 280px;
 }
